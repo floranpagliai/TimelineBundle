@@ -1,0 +1,26 @@
+{
+  "name" : "Shked0wn/TimelineBundle",
+  "description" : "Simple bundle that will create a nice cutomizable timeline for your symfony projects.",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Floran Pagliai",
+    "email" : "floran.pagliai@gmail.com"
+  }],
+  "keywords" : [
+    "timeline",
+    "time",
+    "date",
+    "bundle"
+  ],
+  "require" : {
+    "php" : ">=5.5.0",
+    "symfony/framework-bundle" : ">=2.5.6",
+    "twig/twig" : "*"
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Shked0wn\\TimelineBundle" : ""
+    }
+  },
+  "target-dir" : "Shked0wn/TimelineBundle"
+}
