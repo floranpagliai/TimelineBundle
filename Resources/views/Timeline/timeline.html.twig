@@ -1,0 +1,28 @@
+<section id="timeline">
+    {% for section in timeline %}
+        <article>
+            <div class="inner">
+                <span class="date">
+                    {% if  section.date.day is not defined %}
+                        <br/>
+                    {% else %}
+                        <span class="day">{{ section.date.day }}</span>
+                    {% endif %}
+                    {% if section.date.month is not defined %}
+                        <span class="month">{{ section.date.year }}</span>
+                    {% else %}
+                        <span class="month">{{ section.date.month }}</span>
+                        <span class="year">{{ section.date.year }}</span>
+                    {% endif %}
+                </span>
+                {% if section.text is not defined %}
+                    <h2 class="rounded">{{ section.title }}</h2>
+                    <p style="visibility: hidden"></p>
+                {% else %}
+                    <h2>{{ section.title }}</h2>
+                    <p>{{ section.text }}</p>
+                {% endif %}
+            </div>
+        </article>
+    {% endfor %}
+</section>
