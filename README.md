@@ -3,6 +3,7 @@ Synfony2 bundle to make nice looking and responsive timeline.
 This bundle provide a simple controller to render timeline and include a twig and CSS. If you are interested by more customization don't hesitate to post an issue with your request.
  
 [![Latest Stable Version](https://poser.pugx.org/shked0wn/timeline-bundle/v/stable)](https://packagist.org/packages/shked0wn/timeline-bundle) [![Total Downloads](https://poser.pugx.org/shked0wn/timeline-bundle/downloads)](https://packagist.org/packages/shked0wn/timeline-bundle) [![Latest Unstable Version](https://poser.pugx.org/shked0wn/timeline-bundle/v/unstable)](https://packagist.org/packages/shked0wn/timeline-bundle) [![License](https://poser.pugx.org/shked0wn/timeline-bundle/license)](https://packagist.org/packages/shked0wn/timeline-bundle)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/02059eec-adbf-4213-a3b8-30ee4fa3c9ab/mini.png)](https://insight.sensiolabs.com/projects/02059eec-adbf-4213-a3b8-30ee4fa3c9ab)
  
 ![Exemple](https://github.com/shked0wn/TimelineBundle/blob/master/Resources/public/demo/exemple.png)
  
