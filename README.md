@@ -9,7 +9,18 @@ This bundle provide a simple controller to render timeline and include a twig an
 ## Installation
 
     composer require shked0wn/timeline-bundle
-    
+
+Add the bundle to your AppKernel.php
+
+    public function registerBundles()
+    {
+         $bundles = array(
+              [..]
+              new Shked0wn\TimelineBundle\TimelineBundle(),
+              [..]
+         );
+    }
+
 ## Usage
 
 First you want to create an array like the following in your controller.`
