@@ -12,25 +12,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class TimelineController extends Controller
 {
-    public function renderTimelineAction()
+    public function renderTimelineAction($timeline)
     {
-        $timeline = array(
-            array(
-                'title' => 'Titre',
-                'date' => array(
-                    'day' => 29,
-                    'month' => 'JAN',
-                    'year' => 2015
-                )
-            ),
-            array(
-                'title' => 'Titre',
-                'text' => 'mon super texte',
-                'date' => array(
-                    'year' => 2015
-                )
-            )
-        );
         return $this->render('TimelineBundle:Timeline:timeline.html.twig', array('timeline' => $timeline));
     }
 }

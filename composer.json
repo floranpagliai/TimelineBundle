@@ -6,6 +6,7 @@
     "name" : "Floran Pagliai",
     "email" : "floran.pagliai@gmail.com"
   }],
+  "license": "MIT",
   "keywords" : [
     "timeline",
     "time",
