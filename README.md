@@ -2,6 +2,8 @@
 
 This bundle provide a simple controller to render timeline and include a twig and CSS. If you are interested by more customization don't hesitate to post an issue with your request.
  
+![Exemple](https://github.com/shked0wn/TimelineBundle/blob/master/Resources/public/demo/exemple.png)
+ 
 ## Installation
 
     composer require shked0wn/timeline-bundle
@@ -10,8 +12,8 @@ This bundle provide a simple controller to render timeline and include a twig an
 
 First you want to create an array like the following in your controller.`
 
-``
-$timeline = array(
+
+            $timeline = array(
                 array(
                     'title' => 'Title',
                     'date' => array(
@@ -32,7 +34,7 @@ $timeline = array(
                     )
                 )
             );
-```
+
 Then give your array to your view.
 
     return $this->render('TimelineBundle:Default:index.html.twig', array('timeline' => $timeline));
@@ -44,5 +46,4 @@ And finally call the render controller in your twig with the array as param.
 ## License 
 
 This bundle is under the MIT license.
-![Exemple](Resources/public/demo/exemple.png)
 
