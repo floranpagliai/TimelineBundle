@@ -1,5 +1,5 @@
 {
-  "name" : "Shked0wn/Timeline-bundle",
+  "name" : "Shked0wn/timeline-bundle",
   "description" : "Simple bundle that will create a nice cutomizable timeline for your symfony projects.",
   "type" : "symfony-bundle",
   "authors" : [{
