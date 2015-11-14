@@ -16,11 +16,11 @@
                     {% endif %}
                 </span>
                 {% if section.text is not defined %}
-                    <h2 class="rounded">{{ section.title }}</h2>
+                    <h2 class="rounded">{{ section.title|trans }}</h2>
                     <p style="visibility: hidden"></p>
                 {% else %}
-                    <h2>{{ section.title }}</h2>
-                    <p>{{ section.text }}</p>
+                    <h2>{{ section.title|trans }}</h2>
+                    <p>{{ section.text|trans }}</p>
                 {% endif %}
             </div>
         </article>
