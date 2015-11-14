@@ -11,7 +11,7 @@ section#timeline:before {
   top: 0;
   margin: 0 0 0 -1px;
   width: 2px;
-  height: 100%;
+  height: 90%;
   background: #536878;
 }
 section#timeline article {
