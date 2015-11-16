@@ -22,6 +22,16 @@ Add the bundle to your AppKernel.php
          );
     }
 
+Include css file in your header
+
+    {% stylesheets 
+        [..]
+        'bundles/timelinebundle/css/style.css'
+        [...]
+        filter='cssrewrite' %}
+        <link rel="stylesheet" href="{{ asset_url }}" />
+    {% endstylesheets %}
+    
 ## Usage
 
 First you want to create an array like the following in your controller.`
